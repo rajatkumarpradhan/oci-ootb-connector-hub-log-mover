@@ -1,0 +1,7 @@
+{
+  "name": "app-logs-to-bucket",
+  "source": "logging",
+  "task": "logfilter",
+  "target": "objectstorage",
+  "severities": ["WARN", "ERROR"]
+}
