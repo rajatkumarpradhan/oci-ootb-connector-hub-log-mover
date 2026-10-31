@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oci-connector-hub-mover"
+version = "0.1.0"
+description = "Offline model of OCI Connector Hub: config validation plus a crash-safe batch mover for log exports"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
